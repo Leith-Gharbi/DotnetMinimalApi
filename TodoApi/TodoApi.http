@@ -1,0 +1,14 @@
+﻿@TodoApi_HostAddress = https://localhost:49153
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+    "name": "go to the gym",
+    "isComplete": false
+}
+###
